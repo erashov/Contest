@@ -1,0 +1,12 @@
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\bin\Debug\TestStaff.Dal.dll.config
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\bin\Debug\TestStaff.Dal.dll
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\bin\Debug\TestStaff.Dal.pdb
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\bin\Debug\EntityFramework.dll
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\bin\Debug\Ninject.dll
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\bin\Debug\EntityFramework.xml
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\bin\Debug\Ninject.xml
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\obj\Debug\TestStaff.Dal.csprojResolveAssemblyReference.cache
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\obj\Debug\TestStaff.Dal.dll
+C:\Users\ASErashov\Documents\Visual Studio 2015\Projects\Contests\TestStaff.Dal\obj\Debug\TestStaff.Dal.pdb

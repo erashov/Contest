@@ -1,0 +1,60 @@
+﻿.logo_container {
+    height: 67px;
+}
+.user_name {
+    position: absolute;
+    right: 32px;
+    top: 29px;
+    font: normal 13px/1.4 Arial, Helvetica, serif;
+}
+.hidden {
+    display: none;
+}
+
+.question-item {
+    display: none;
+}
+
+.question-item_last  {
+    display: block;
+}
+
+.my-main-title h3, .my-main-title h5 {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-weight: bold;
+    color: #3aabc1;
+}
+
+.my-title, .my-result-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.my-panel {
+    padding: 20px;
+}
+
+.panel-info h5 {
+    color: #3aabc1;
+}
+
+.result-block {
+    text-align: center;
+}
+
+.result-panel {
+    display: none;
+}
+
+.result-panel_visible {
+    display: block;
+}
+
+.input-group-list {
+    list-style-type: none;
+    padding-left: 10px;
+}

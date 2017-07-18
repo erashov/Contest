@@ -1,0 +1,96 @@
+﻿@using TestStaff.Front.Models
+@model TestStaff.Front.Models.TestViewModel
+
+@{
+    ViewBag.Title = "Опрос";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var questions = Model.Test.Questions.ToList();
+}
+
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2 my-main-title">
+        <div>
+            <a href="http://www.akado.ru/" target="_blank">
+                <img src="~/Images/logo_main.png" alt="АКАДО" class="img-responsive my-img" style="margin: 20px auto;">
+            </a>
+        </div>
+        <input id="url-value" type="hidden" value='@(Request.ApplicationPath != "/" ? Request.ApplicationPath : "")' />
+        <h3>@Model.Test.Name</h3>
+        <h5>@Model.Test.Description</h5>
+    </div>
+</div>
+
+<div class="row">
+    <div class="Test">
+        <div class="row my-row question-list">
+            <div class="col-lg-8 col-lg-offset-2">
+                @for (int i = 0; i < questions.Count; i++)
+                {
+                    var question = questions[i];
+                    <div class="panel panel-info my-panel question-item
+                         @(Model.LastQuestion != null && Model.LastQuestion.Id == question.Id ? "question-item_last" : "")">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <h5 class="my-title">Вопрос @(i + 1) из @questions.Count</h5>
+                                <h5>Категория: @question.Test.Name</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-7 col-sm-7">
+                                <h3 class="my-quest">
+                                    @question.Text
+                                </h3>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 btn-group">
+                                        <div class="input-group">
+                                            <ul class="input-group-list">
+                                                @foreach (var answer in question.Answers.ToList())
+                                                {
+                                                    <li>
+                                                        <label>
+                                                            <input name="group"
+                                                                   class="question-item__answer"
+                                                                   type="@(question.HasManyCorrectAnswer != true ? "radio" : "checkbox")"
+                                                                   aria-label="@answer.Text"
+                                                                   data-answer-id="@answer.Id">
+                                                            @answer.Text
+                                                        </label>
+                                                    </li>
+                                                }
+                                            </ul>
+                                            <button class="question-button btn btn-default"
+                                                    onclick="answerQuestion('@question.Id', '@Model.Employee.Email')">
+                                                Ответить
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-sm-5">
+                                <img class="img-responsive my-img">
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-info my-panel @(Model.LastQuestion == null ? "result-panel_visible" : "result-panel")">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12">
+            <div class="result-block">
+                <p>@Html.Raw(@Model.Test.Result)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+

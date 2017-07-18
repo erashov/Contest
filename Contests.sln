@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestsClients.Admin", "Contests\ContestsClients.Admin.csproj", "{A238B004-2B0C-4272-835F-D1106AD0E497}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{A3C06638-4E8F-465E-AAE1-C4251EC2FA6F}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\2016 - Паспорт системы Contests.docx = Documents\2016 - Паспорт системы Contests.docx
+		Documents\2016 - Паспорт системы ContestsClients.docx = Documents\2016 - Паспорт системы ContestsClients.docx
+		Documents\Тест к Дню Радио1.docx = Documents\Тест к Дню Радио1.docx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestsClients.Dal", "ContestsClients.Dal\ContestsClients.Dal.csproj", "{67B505F6-99E8-4A1D-ADEB-40AC03963730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestsClients.Front", "ContestsClients.Front\ContestsClients.Front.csproj", "{3203AFA9-2CCD-444B-896B-B1E65D365C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStaff.Admin", "TestStaff.Admin\TestStaff.Admin.csproj", "{8F6C5196-12FB-4B12-B4FF-B0D9671337FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStaff.Dal", "TestStaff.Dal\TestStaff.Dal.csproj", "{A41166CC-7C5F-4F79-B09B-485E7C2C16C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStaff.Front", "TestStaff.Front\TestStaff.Front.csproj", "{2227081D-A95B-41A1-9924-5E06467D32A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A238B004-2B0C-4272-835F-D1106AD0E497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A238B004-2B0C-4272-835F-D1106AD0E497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A238B004-2B0C-4272-835F-D1106AD0E497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A238B004-2B0C-4272-835F-D1106AD0E497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B505F6-99E8-4A1D-ADEB-40AC03963730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B505F6-99E8-4A1D-ADEB-40AC03963730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B505F6-99E8-4A1D-ADEB-40AC03963730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B505F6-99E8-4A1D-ADEB-40AC03963730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3203AFA9-2CCD-444B-896B-B1E65D365C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3203AFA9-2CCD-444B-896B-B1E65D365C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3203AFA9-2CCD-444B-896B-B1E65D365C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3203AFA9-2CCD-444B-896B-B1E65D365C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6C5196-12FB-4B12-B4FF-B0D9671337FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6C5196-12FB-4B12-B4FF-B0D9671337FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6C5196-12FB-4B12-B4FF-B0D9671337FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6C5196-12FB-4B12-B4FF-B0D9671337FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41166CC-7C5F-4F79-B09B-485E7C2C16C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41166CC-7C5F-4F79-B09B-485E7C2C16C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41166CC-7C5F-4F79-B09B-485E7C2C16C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41166CC-7C5F-4F79-B09B-485E7C2C16C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2227081D-A95B-41A1-9924-5E06467D32A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2227081D-A95B-41A1-9924-5E06467D32A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2227081D-A95B-41A1-9924-5E06467D32A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2227081D-A95B-41A1-9924-5E06467D32A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://serv-dev:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ContestsClients.Dal\\ContestsClients.Dal.csproj
+		SccProjectName1 = ContestsClients.Dal
+		SccLocalPath1 = ContestsClients.Dal
+		SccProjectUniqueName2 = ContestsClients.Front\\ContestsClients.Front.csproj
+		SccProjectName2 = ContestsClients.Front
+		SccLocalPath2 = ContestsClients.Front
+		SccProjectUniqueName3 = Contests\\ContestsClients.Admin.csproj
+		SccProjectName3 = Contests
+		SccLocalPath3 = Contests
+		SccProjectUniqueName4 = TestStaff.Admin\\TestStaff.Admin.csproj
+		SccProjectName4 = TestStaff.Admin
+		SccLocalPath4 = TestStaff.Admin
+		SccProjectUniqueName5 = TestStaff.Dal\\TestStaff.Dal.csproj
+		SccProjectName5 = TestStaff.Dal
+		SccLocalPath5 = TestStaff.Dal
+		SccProjectUniqueName6 = TestStaff.Front\\TestStaff.Front.csproj
+		SccProjectName6 = TestStaff.Front
+		SccLocalPath6 = TestStaff.Front
+	EndGlobalSection
+EndGlobal
